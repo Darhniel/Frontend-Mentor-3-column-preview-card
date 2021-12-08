@@ -1,0 +1,92 @@
+
+html {
+    font-size: 15px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 6rem 2rem;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+img {
+    margin-bottom: 1.5rem;
+}
+h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 1.5rem;
+    font-family: 'Big Shoulders Display', cursive;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 2;
+    margin-bottom: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+div.sedans, div.suvs, div.luxury {
+    padding: 3rem;
+}
+div.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+div.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+div.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+a {
+    background-color: hsl(0, 0%, 95%);
+    padding: 1rem;
+    border-radius: 1.5rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: block;
+    width: 66%;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+div.sedans > a {
+    color: hsl(31, 77%, 52%);
+}
+div.sedans > a:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: solid 3px hsl(0, 0%, 95%);
+}
+div.suvs > a {
+    color: hsl(184, 100%, 22%);
+}
+div.suvs > a:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: solid 3px hsl(0, 0%, 95%);
+}
+div.luxury > a {
+    color: hsl(179, 100%, 13%);
+}
+div.luxury > a:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: solid 3px hsl(0, 0%, 95%);
+}
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 1rem;
+}
+footer > a { 
+    color: green; 
+    padding: 0;
+    text-decoration: underline;
+    display: inline;
+}
